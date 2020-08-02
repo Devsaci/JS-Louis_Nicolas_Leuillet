@@ -89,7 +89,13 @@ console.log(tempsDePreparationFraisier + tempsDePreparationChocolat); */
 
 function prevoirAge() {
     let age = prompt("Quel est votre age");
-    age = parseInt(age);
+    //age = parseInt(age);
+    //age = parseFloat(age);
+
+    // nombre = 45;
+    // nombreString = nombre + "",
+    //nombreString = nombre.toString;
+    age = Number(age);
     alert("bientot vous aurez   " + (age + 1) + "  ans.");
 }
 prevoirAge();
