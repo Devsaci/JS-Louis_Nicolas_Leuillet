@@ -86,20 +86,49 @@ let tempsDePreparationFraisier = cuisiner(1, 20);
 console.log(tempsDePreparationFraisier);
 console.log(tempsDePreparationFraisier + tempsDePreparationChocolat); */
 
-
+/* 
 function prevoirAge() {
     let age = prompt("Quel est votre age");
     //age = parseInt(age);
     //age = parseFloat(age);
 
     // nombre = 45;
-    // nombreString = nombre + "",
+    // nombreString = nombre + "";
     //nombreString = nombre.toString;
+
     age = Number(age);
     alert("bientot vous aurez   " + (age + 1) + "  ans.");
 }
 prevoirAge();
+console.log(prevoirAge()); */
 
-console.log(prevoirAge());
+
+
+function abracadabra() {
+    
+    let prenom = prompt("Quel est votre prénom ?");
+    let nom    = prompt("Quel est votre nom ?");
+    let age    = prompt("Quel est votre age ?");
+
+    alert("Sapristi ! On ne m'avait pas prévenu que c'était vous, "
+            + prenom
+            + " ! Euh... Je veux dire... Monsieur le grand magicien "
+            + nom
+            + " ! Cela fait déjà "
+            + age
+            + " ans que vous faites rayonner notre contrée !");
+
+}
+
+abracadabra(); 
+
+/* function dirBonjour(name) {  
+
+    alert('Bonjour  ' + name)
+}
+dirBonjour('Zakaria'); */
+
+alert('Bonjour  ');
+
 
 
